@@ -9,7 +9,8 @@ app.get('/', function(request, response) {
     if (err) {
        return console.log(err);
     }
-    console.log(data);
+//  console.log(data);
+    response.send(data);
     });
 
 //  response.send('Hello World2!');
